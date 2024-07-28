@@ -14,8 +14,8 @@ A multi-page e-commerce website
 
 # Links
 
-- github URL: https://github.com/MercySitienei/audiophile
-- live site URL: https://mercysitienei.github.io/audiophile/
+- github URL: https://github.com/MercySitienei/audiophile-ecommerce
+- live site URL: https://mercysitienei.github.io/audiophile-ecommerce/
 
 # Built with
 
