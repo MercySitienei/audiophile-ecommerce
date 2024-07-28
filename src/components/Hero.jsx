@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const Hero = () => {
     return (
-      <div className={`text-center flex h-[80vh] lg:h-[90vh] w-full bg-no-repeat bg-cover bg-mobile-hero-image lg:bg-desktop-hero-image md:bg-tablet-hero-image bg-center text-white`}>
+      <div className={`text-center flex h-[80vh] lg:h-[90vh] w-full bg-no-repeat bg-cover bg-[url('/assets/home/mobile/image-header.jpg')] lg:[url('/assets/home/desktop/image-hero.jpg')] md:[url('/assets/home/tablet/image-header.jpg')] bg-center text-white`}>
         <div className=' text-center lg:text-left items-center lg:items-start lg:px-[150px]  justify-center flex flex-col'>
           <p className='font-thin text-[#adabab] tracking-[0.8em] pb-3'>NEW PRODUCT</p>
           <p className='font-[500] text-[45px]'>XX99 MARK II</p>
