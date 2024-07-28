@@ -18,7 +18,7 @@ export default {
     },
 
     extend: {
-      backgroundImage:{
+      backgroundImage: (theme) => ({
         'mobile-hero-image': "url('/assets/home/mobile/image-header.jpg')",
         'tablet-hero-image': "url('/assets/home/tablet/image-header.jpg')",
         'desktop-hero-image': "url('/assets/home/desktop/image-hero.jpg')",
@@ -118,7 +118,7 @@ export default {
         'desktop-yx1-earphones': "url('/assets/product-yx1-earphones/desktop/image-category-page-preview.jpg')",
         'tablet-yx1-earphones': "url('/assets/product-yx1-earphones/tablet/image-category-page-preview.jpg')",
         'mobile-yx1-earphones': "url('/assets/product-yx1-earphones/mobile/image-category-page-preview.jpg')",
-      },
+      }),
     },
     fontFamily:{
       Manrope:["Manrope", 'sans-serif']

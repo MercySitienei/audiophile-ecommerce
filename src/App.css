@@ -4,14 +4,3 @@
 body{
   font-family: "Manrope", 'sans-serif';
 }
-@layer utilities{
-  .mobile-hero-image {
-      background-image: url('/assets/home/mobile/image-header.jpg');
-  }
-  .tablet-hero-image {
-      background-image: url('/assets/home/tablet/image-header.jpg');
-  }
-  .desktop-hero-image {
-      background-image: url('/assets/home/desktop/image-hero.jpg');
-  }
-}
